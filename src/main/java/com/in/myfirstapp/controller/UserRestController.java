@@ -21,5 +21,9 @@ public class UserRestController {
 	public ResponseEntity<String> reshi(){
 		return new ResponseEntity<>( "<h1>HI....Reshi ~:) Your are the second billionaire in our family<h1>",HttpStatus.OK);
 	}
+	@GetMapping("/naveen")
+	public ResponseEntity<String> naveen(){
+		return new ResponseEntity<>( "<h1>HI....Naveen ~:) Your are the second billionaire in your family<h1>",HttpStatus.OK);
+	}
 	
 }
